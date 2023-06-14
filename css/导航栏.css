@@ -1,0 +1,131 @@
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+ul{
+    list-style: none;
+}
+
+*{
+    margin:0px;
+    padding: 0px
+}
+
+.container{
+    border-bottom: 1px solid #ddd;
+    background-color: grey;
+}
+
+.nav{
+    width: 1190px;
+    margin: auto;
+    height: 30px;
+    line-height: 30px;
+}
+
+.fl{
+    float: left;
+}
+.dq{
+    padding-left:10px;
+    padding-right: 5px;
+    width: 60px;
+    position: relative;
+    text-align:-webkit-match-parent;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.city{
+    text-align: center;
+    line-height: 30px;
+ 
+}
+.list{
+    width: 300px;
+    left: -1px;
+    padding:10px;
+    display: none;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: white;
+    position: absolute;
+}
+.list1{
+    width: 200px;
+    left: -1px;
+    padding:10px;
+    display: none;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: white;
+    position: absolute;
+}
+.list2{
+    width: 980px;
+    height: 300px;
+    left: -1px;
+    padding:10px;
+    display: none;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: white;
+    position: absolute;
+}
+.list1>.item1{
+    margin:0px  10px;
+}
+.item{
+    float: left;
+    width: 60px;
+    padding:2px 0 ;
+}
+.item1{
+    float: left;
+    width: 100px;
+    padding:2px 0 ;
+}
+.fl .dq:hover .list ,.fr .wdjd:hover .list,.fr .qycg:hover .list1,.fr .wzdh:hover .list2 {
+    display: block;
+}
+.fl .dq:hover ,.fr .wdjd:hover,.fr .qycg:hover ,.fr .wzdh:hover{
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: white;
+ 
+}
+a.hover_red:hover{
+    color: red;
+}
+.fr{
+    float: right;
+}
+.fr>li{
+    float: left;
+}
+.spacer{
+    margin:11px 5px 0;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
+.wdjd,.qycg,.wzdh{
+    padding-left:10px;
+    padding-right: 5px;
+    position: relative;
+    text-align:-webkit-match-parent;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.city img{
+    width: 14px;
+    vertical-align: -2px;
+
+}
